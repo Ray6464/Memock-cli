@@ -1,0 +1,32 @@
+{
+  "name": "memock-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for developing mock servers to aid in development tools like APIs without access to seperate severs. It will allow you to develop and initiate a server that serves predetermined files and JSON objects over predetermined nodes, all in one CLI command.",
+  "main": "memock-cli.js",
+  "scripts": {
+    "test": "tests/mainTest.js",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/Memock-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "memock",
+    "server",
+    "npm",
+    "nodejs"
+  ],
+  "author": "Ray Voice, Anna Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/Memock-cli/issues"
+  },
+  "homepage": "https://github.com/Ray6464/Memock-cli#readme",
+  "dependencies": {
+    "hardlog": "^2.0.0",
+    "memock": "^3.0.1",
+    "readline": "^1.3.0"
+  }
+}
