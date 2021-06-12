@@ -1,6 +1,6 @@
 {
   "name": "memock-cli",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "A CLI tool for developing mock servers to aid in development tools like APIs without access to seperate severs. It will allow you to develop and initiate a server that serves predetermined files and JSON objects over predetermined nodes, all in one CLI command.",
   "main": "memock-cli.js",
   "scripts": {
